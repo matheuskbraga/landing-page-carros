@@ -199,7 +199,7 @@ section {
 
     & .item {
       transform: translateX(100vw);
-      transition: 0.5;
+      transition: 0.5s;
       opacity: 0;
 
       & .car-img {
@@ -219,11 +219,10 @@ section {
           transform: translateX(200px);
           transition: 0.7px;
           transition-delay: 0.3s;
-          opacity: 0;
         }
 
         & h2 {
-          transition-delay: 0.3s;
+          transition-delay: 0.5s;
         }
 
         & .description {
@@ -240,7 +239,7 @@ section {
 
     & .active {
       transform: translateX(0);
-      transition: 0.5;
+      transition: 0.5s;
       opacity: 1;
 
       & .car-img {
